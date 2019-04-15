@@ -323,6 +323,7 @@ public class Client extends Core implements KeyListener{
 	
 	public static float getCollisionAngle(PhysicsObject one, PhysicsObject two) {
 		float angle = (float)(Math.atan2((int)two.getY() - (int)one.getY(), (int)two.getX() - (int)one.getX()));
+		//dong
 		return angle;
 	}
 	
