@@ -25,6 +25,7 @@ public class Client extends Core implements KeyListener{
 	int speedVar = 3;
 	int [] middle = {0,0};
 	int boostNum=3;
+	
 	public static void main(String [] args) {
 		new Client().run();
 	}
@@ -58,7 +59,7 @@ public class Client extends Core implements KeyListener{
 			draw(g);
 			collisionTester();
 			try {
-				Thread.sleep(1000/60);
+				Thread.sleep(1000/1000);
 			} catch (Exception ex) {}
 		}
 		
@@ -198,9 +199,15 @@ public class Client extends Core implements KeyListener{
 	//draws all the cars
 	
 	public void drawCars(Graphics2D g) {
+		Color p1 = new Color(99,77,219,255);
+		Color p2 = new Color(243,19,49,255);
+		Color [] colors = {p1,p2}; 
 		for(int i=0;i<cars.length;++i) {
 			Graphics2D g2d1 = g; 
 			g2d1.rotate(cars[i].theta, cars[i].getX(), cars[i].getY());
+			g2d1.setColor(colors[i]);
+			g2d1.fill(cars[i].getShape());
+			g2d1.setColor(Color.BLACK);
 			g2d1.draw(cars[i].getShape());
 			g2d1.rotate((2 * Math.PI) - cars[i].theta, cars[i].getX(),cars[i].getY());
 		}
@@ -263,7 +270,6 @@ public class Client extends Core implements KeyListener{
 				ball.setY((ball.getY() + newVelY1));
 				cars[i].setX((cars[i].getX() + newVelX2) - cars[i].velocity[0]);
 				cars[i].setY((cars[i].getY() + newVelY2) - cars[i].velocity[1]);
-				
 				ball.accelerate(cars[i].Magnitude, carToBallAngle);
 				cars[i].accelerate(ball.Magnitude, (Math.PI * 2) - carToBallAngle );
 			}

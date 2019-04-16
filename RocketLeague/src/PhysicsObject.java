@@ -71,13 +71,16 @@ public abstract class PhysicsObject {
 		}
 	}
 	public void determineVector() {
-		this.lastTheta = theta;
+		
 		this.xVel = this.velocity[0];
 		this.yVel = this.velocity[1];
 		double combine = Math.pow(xVel, 2) + Math.pow(yVel, 2);
 		this.Magnitude = Math.sqrt(combine);
 		this.theta = Math.atan2(yVel,xVel);
+		this.lastTheta = theta;
 		if(Double.isNaN(theta)) {
+			this.theta = lastTheta;
+		} else if (this.xVel == 0 && this.yVel == 0){
 			this.theta = lastTheta;
 		}
 		this.antiTheta = (theta + Math.PI);
