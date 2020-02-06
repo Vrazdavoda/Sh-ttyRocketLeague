@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f056437-3c01-4e47-8df5-a29f59188fcd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/RocketLeague/bin/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLeague/bin/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLeague/bin/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLeague/bin/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLeague/bin/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLeague/bin/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLeague/bin/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLeague/bin/Core.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLeague/bin/PhysicsObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLeague/bin/PhysicsObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLeague/bin/ScreenManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLeague/bin/ScreenManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLeague/bin/Stage.class" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLeague/bin/Stage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLeague/bin/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLeague/bin/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XS7Z099JDCvsJltDyHtUXwa2VY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/RocketLeague" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f056437-3c01-4e47-8df5-a29f59188fcd" name="Default Changelist" comment="" />
+      <created>1581027693911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581027693911</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

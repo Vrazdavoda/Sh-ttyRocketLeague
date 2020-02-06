@@ -7,8 +7,6 @@ import java.awt.event.KeyListener;
 import java.awt.geom.Ellipse2D;
 import java.util.Random;
 
-import javafx.scene.shape.Line;
-
 public class Client extends Core implements KeyListener{
 	public boolean touching = false;
 	Car a = new Car(0,0);
